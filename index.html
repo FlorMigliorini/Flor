@@ -12,17 +12,21 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/slick-theme.css" />
+    <script src="https://kit.fontawesome.com/3470af71f4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  
     <header class="container p-4">
+       
         <div class="row animated slideInRight text-white bg-dark shadow">
             <div class="col-12 mx-auto text-center">
                 <img src="./img/flor.jpg" class="rounded-circle img-fluid" id="perfil-foto" />
                 <h1>Florence Migliorini</h1>
                 <small>Computer Science student - NCI Dublin</small>
+                
             </div>
-
+       
             <div class=" mx-auto text-center">
                 <ul class="nav mx-auto text-center">
                     <li class="nav-item text-center">
@@ -35,23 +39,22 @@
                         <a class="nav-link text-white"
                             href="https://www.linkedin.com/in/florence-migliorini/">LinkedIn</a>
                     </li>
-
+                    <li class="nav-item text-center">
+                        <a class="nav-link text-white"
+                            href="test.html">test</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </header>
 
     <section class="container mt-3 bg-light animated slideInLeft">
-        <h3 class="border-bottom p-5s">Experience</h3>
+        <h3 class="border-bottom p-5s">Cover Letter</h3>
         <div class="row mt-5">
 
-            <div class="col-sm text-center">
-
-                <img src="./img/download.jpg" class="img-thumbnail img-fluid company-img" />
-                <h6 class="text-center mt-3">Emer's Kitchen</h6>
-            </div>
+            
             <div class="col-sm mt-3">
-                <h5>Barista / Commis chef</h5>
+                <h5>About me</h5>
                 <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                     the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
                     type and scrambled it to make a type specimen book. It has survived not only five centuries, but
@@ -60,23 +63,7 @@
                     with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</small>
             </div>
         </div>
-        <div class="row mt-5">
-
-            <div class="col-sm text-center">
-
-                <img src="./img/download.jpg" class="img-thumbnail img-fluid company-img" />
-                <h6 class="text-center mt-3">Emer's Kitchen</h6>
-            </div>
-            <div class="col-sm mt-3">
-                <h5>Barista / Commis chef</h5>
-                <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                    also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</small>
-            </div>
-        </div>
+       
     </section>
     <section class="container mt-3 bg-light animated slideInLeft">
         <h3 class=" border-bottom p-5s">Education</h3>
@@ -119,7 +106,7 @@
         <h3 class="border-bottom p-2 mb-5">Skills</h3>
         <div class="row mb-4 text-center">
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fab fa-java fa-5x"></i> 
                 <div class="progress">
                     <div class="progress-bar">
                         25%
@@ -127,7 +114,7 @@
                 </div>
             </div>
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fab fa-git-alt fa-5x"></i>
                 <div class="progress">
                     <div class="progress-bar">
                         25%
@@ -135,17 +122,17 @@
                 </div>
             </div>
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fas fa-code-branch fa-5x"></i>
                 <div class="progress">
                     <div class="progress-bar">
-                        50%
+                        25%
                     </div>
                 </div>
             </div>
         </div>
         <div class="row mb-4 text-center">
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fab fa-js fa-5x"></i>
                 <div class="progress">
                     <div class="progress-bar">
                         25%
@@ -153,7 +140,7 @@
                 </div>
             </div>
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fab fa-node fa-5x"></i>
                 <div class="progress">
                     <div class="progress-bar">
                         25%
@@ -161,7 +148,7 @@
                 </div>
             </div>
             <div class="col-sm">
-                <img class="mt-2 mb-3 logo-img" src="./img/css-37-226088.png" alt="css" title="css" />
+                <i class="fas fa-code fa-5x"></i>
                 <div class="progress">
                     <div class="progress-bar">
                         25%
@@ -170,6 +157,7 @@
             </div>
         </div>
         </div>
+        <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
     </section>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -177,6 +165,7 @@
     <!-- Slick -->
     <script src="./js/slick.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/script.js" ></script>
 </body>
 
 </html>
